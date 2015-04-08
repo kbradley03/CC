@@ -18,7 +18,7 @@ body    {
                width: 223px;
                height:331px;
                text-align:center;
-               padding:0 0 0 0;
+               padding:20px 0 0 0;
                opacity:0;
                -webkit-transition: opacity .25s ease;
                -moz-transition: opacity .25s ease;}
@@ -27,13 +27,15 @@ body    {
                opacity:1;
                     }
 
-#bio       {  font-family:Helvetica;
-               font-weight:900;
+#bio       {  
+               font-family:Helvetica;
+               font-weight:bold;
                color:rgba(255,255,255,.85);
                font-size:14px;
-               position: absolute:
+               position: inherit;
                
-}
+               
+            }
     
 
  
