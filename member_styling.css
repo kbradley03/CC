@@ -1,0 +1,39 @@
+body    {  
+  background:#e7e7e7;
+        }
+#box    { 
+           width:223px;
+           height:331px;
+           box-shadow: inset 1px 1px 40px 0 rgba(160, 160, 160, .45);
+           border-bottom:2px solid #aaa;
+           border-right:2px solid #aaa;
+           margin:5% auto 0 auto; 
+           background:url(images/member3.jpg);
+           background-size:cover;
+           border-radius:0;
+           overflow:hidden;}
+
+#overlay    {  
+               background:rgba(0,0,0,.75);
+               width: 223px;
+               height:331px;
+               text-align:center;
+               padding:0 0 0 0;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+               -moz-transition: opacity .25s ease;}
+
+#box:hover #overlay {
+               opacity:1;
+                    }
+
+#bio       {  font-family:Helvetica;
+               font-weight:900;
+               color:rgba(255,255,255,.85);
+               font-size:14px;
+               position: absolute:
+               
+}
+    
+
+ 
