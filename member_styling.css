@@ -1,6 +1,13 @@
 body    {  
-  background:#e7e7e7;
+  background-color: white;
         }
+#container{
+          border: 3px solid black;
+          width: 1200px;
+          margin-left:auto;
+          margin-right: auto;
+          background-color: white;
+}
 #box    { 
            width:223px;
            height:331px;
@@ -40,6 +47,93 @@ body    {
 a           {
                 text-decoration: none;
             }
+header      {
+                height: 80px;
+                width: 100%;
+                border-bottom: 5px solid gold;
+                text-align: right;
+                background-color: white;
+                
+            }
+#header     {
+                
+                
+                float: left;
+                width: 100px;
+                height: auto;
+                margin-left: 20px;
+                border-radius: 50%;
+  
+            }
+.menu   li     {
+              display: inline;
+              list-style-type: square;
+              text-decoration: none;
+              padding-left: 10px;
+              margin-top: 25%;
+              margin-right: 30px;
+              
+            }
+#indmemb    {
+                /*margin-left: 10%;*/
+                background-color: whitesmoke;
+            }
+#boxmem     {
+              /*border: 8px solid red;*/
+               width:223px;
+               height:331px;
+               box-shadow: inset 1px 1px 40px 0 rgba(160, 160, 160, .45);
+               margin:5% auto 0 10%; 
+               background:url(images/member3.jpg);
+               background-size:cover;
+               overflow:hidden;
+               float: left;
+            }
+#hero       {
+              background:url(images/night-city.jpg);
+              height: 460px;
+              
+            }
+hr          {
+            float: left;
+            width: 500px;
+            }
+#id         {
+              color: black;
+              
+            }
+#inner {
+  /*border: 3px solid black;*/
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:white; 
+}
+#descriptionBody {
+              display: inline-block;
+             
+}
+.adspace     {
+              float: right;
+              display:block;
+              border: 3px solid red;
+              height: 400px;
+              width: 300px;
+              margin-left: 120px;
+              margin-top: 15px;
+              text-align: center;
+              font-size: 24px; 
+              }
+#memberdes      {
+              
+              float: left;
+              height: 200px;
+              width: 500px;
+              
+}
+
+
     
 
  
+
