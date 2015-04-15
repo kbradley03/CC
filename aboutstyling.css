@@ -9,7 +9,8 @@
           width: 1200px;
           margin-left:auto;
           margin-right: auto;
-          border: 1px solid #FFD700;
+          /*border: 1px solid #FFD700;*/
+    background-color: #222;
 
           
           
@@ -28,12 +29,12 @@
         /*border: 3px solid red;*/
         }
 .inner {
-        border: 2px solid #FFD700;
+        /*border: 2px solid #FFD700;*/
         width: 80%;
         background-color: white;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 30px;
+        /*margin-top: 30px;*/
         margin-bottom: 50px;
         /*-moz-box-shadow: 5px 5px 10px 5px rgba(204, 204, 204, 0.5);
         -webkit-box-shadow: 3px 1px 6px 3px rgba(204, 204, 204, 0.5);
@@ -48,9 +49,9 @@
 .misbox {
   border: 1px solid #FFD700;
   text-align: center;
-  width: 90%;
-  margin-top: 395px;
-  margin-left: 5%;
+  display: table;
+  column-width: 90%;
+  /*margin-left: 5%;*/
   margin-bottom: 10px;
   padding-bottom: 5px;
   -moz-box-shadow: 5px 5px 10px 5px rgba(204, 204, 204, 0.5);
@@ -130,6 +131,7 @@
 .biostate {
   padding: 40px 10px;
   text-align: center;
+  font-size: 19px;
   display: table-cell;
   vertical-align: middle;
 }
@@ -144,7 +146,7 @@
   vertical-align: middle;
 }
 .misstate {
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 
