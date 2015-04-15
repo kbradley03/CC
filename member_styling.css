@@ -2,11 +2,12 @@ body    {
   background-color: white;
         }
 #container{
-          border: 3px solid black;
+          /*border: 3px solid black;*/
           width: 1200px;
           margin-left:auto;
           margin-right: auto;
           background-color: white;
+          border-top: 5px solid gold;
 }
 #box    { 
            width:223px;
@@ -50,7 +51,7 @@ a           {
 header      {
                 height: 80px;
                 width: 100%;
-                border-bottom: 5px solid gold;
+                
                 text-align: right;
                 background-color: white;
                 
@@ -90,7 +91,7 @@ header      {
                float: left;
             }
 #hero       {
-              background:url(images/night-city.jpg);
+              background:url(images/photo2.jpeg);
               height: 460px;
               
             }

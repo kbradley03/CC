@@ -1,0 +1,125 @@
+#about{
+        height: 100%;
+        margin: 0;
+        background-color: whitesmoke;
+
+}
+.container {
+          width: 1200px;
+          margin-left:auto;
+          margin-right: auto;
+          background-color: whitesmoke;
+          border-top: 5px solid gold;
+          
+}
+.hero  {
+        background: url("images/photo.jpeg");
+        height: 460px;
+        /*border: 3px solid red;*/
+        }
+.inner {
+       
+        width: 80%;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid green;
+}
+
+  
+  
+
+
+
+.dhead {
+  
+}
+
+
+ 
+  
+  
+}
+
+.bio {
+  border: 3px solid black;
+  width: 500px;
+  text-align: center;
+ 
+}
+
+.misstate {
+  /*border: 3px solid black;*/
+  text-align: center;
+  width: 60%;
+  margin-top: 400px;
+  margin-left: 20%;
+  padding-bottom: 5px;
+ 
+  -moz-box-shadow: 5px 5px 10px 5px rgba(204, 204, 204, 0.5);
+  -webkit-box-shadow: 3px 3px 6px 3px rgba(204, 204, 204, 0.5);
+  /*Transition effects*/
+  transition: box-shadow ease 0.5s;
+}
+
+.misstate:hover{
+    -webkit-box-shadow: 6px 6px 10px 5px rgba(204, 204, 204, 0.5);
+
+  
+}
+
+.visstate {
+  /*border: 3px solid black;*/
+  width: 60%; 
+  text-align: center;
+  margin: 50px auto;
+  -moz-box-shadow: 5px 5px 10px 5px rgba(204, 204, 204, 0.5);
+  -webkit-box-shadow: 3px 3px 6px 3px rgba(204, 204, 204, 0.5);
+  /*Transition effects*/
+  transition: box-shadow ease 0.5s;
+}
+
+.visstate:hover{
+    -webkit-box-shadow: 6px 6px 10px 5px rgba(204, 204, 204, 0.5);
+}
+
+.mission {
+  border: 3px solid black;
+  text-align: center;
+  width: 500px;
+}
+
+.biostate {
+  /*border: 3px solid black;*/
+  float: right;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  margin-top: 50px;
+  /*margin-bottom: 300px;*/
+  -moz-box-shadow: 5px 5px 10px 5px rgba(204, 204, 204, 0.5);
+  -webkit-box-shadow: 3px 3px 6px 3px rgba(204, 204, 204, 0.5);
+  /*Transition effects*/
+  transition: box-shadow ease 0.5s;
+}
+
+.biostate:hover{
+    -webkit-box-shadow: 6px 6px 10px 5px rgba(204, 204, 204, 0.5);
+ 
+}
+
+.image {
+  float: left;
+  content:url(http://placehold.it/350x300);
+  margin-top:50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  -moz-box-shadow: 5px 5px 10px 5px rgba(204, 204, 204, 0.5);
+  -webkit-box-shadow: 3px 3px 6px 3px rgba(204, 204, 204, 0.5);
+  /*Transition effects*/
+  transition: box-shadow ease 0.5s;
+}
+
+.image:hover{
+    -webkit-box-shadow: 6px 6px 10px 5px rgba(204, 204, 204, 0.5);
+}
