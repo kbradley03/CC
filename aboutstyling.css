@@ -7,6 +7,7 @@
 .container {
           
           width: 1200px;
+          top: 100%;
           margin-left:auto;
           margin-right: auto;
           /*border: 1px solid #FFD700;*/
@@ -31,11 +32,12 @@
 .inner {
         /*border: 2px solid #FFD700;*/
         width: 80%;
+        height: 100%;
         background-color: white;
         margin-left: auto;
         margin-right: auto;
         /*margin-top: 30px;*/
-        margin-bottom: 50px;
+        /*margin-bottom: 50px;*/
         /*-moz-box-shadow: 5px 5px 10px 5px rgba(204, 204, 204, 0.5);
         -webkit-box-shadow: 3px 1px 6px 3px rgba(204, 204, 204, 0.5);
         /*Transition effects*/
@@ -47,14 +49,13 @@
         /*border: 3px solid green;*/
 }
 .misbox {
-  border: 1px solid #FFD700;
   text-align: center;
-  display: table;
-  column-width: 90%;
-  /*margin-left: 5%;*/
-  margin-bottom: 10px;
+  width: 90%;
+  clear: both;
+  margin: auto;
   padding-bottom: 5px;
-  -moz-box-shadow: 5px 5px 10px 5px rgba(204, 204, 204, 0.5);
+  margin-bottom: 10px;
+  -moz-box-shadow: 5px 5px 10px 5px rgba(204,     204, 204, 0.5);
   -webkit-box-shadow: 3px 3px 6px 3px rgba(204, 204, 204, 0.5);
   /*Transition effects*/
   transition: box-shadow ease 0.5s;
@@ -65,12 +66,11 @@
 }
 
 .visbox {
-  border: 1px solid #FFD700;
   width: 90%; 
   text-align: center;
+  clear: both;
   margin: auto;
   padding-bottom: 5px;
-  margin-bottom: 50px;
   -moz-box-shadow: 5px 5px 10px 5px rgba(204, 204, 204, 0.5);
   -webkit-box-shadow: 3px 3px 6px 3px rgba(204, 204, 204, 0.5);
   /*Transition effects*/
@@ -88,15 +88,13 @@
 }
 
 .biobox {
-  border: 1px solid #FFD700;
   float: right;
+  overflow: hidden;
   width: 60%;
   height: 331px;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 5%;
-  display: table-cell;
-  /*margin-bottom: 300px;*/
   -moz-box-shadow: 5px 5px 10px 5px rgba(204, 204, 204, 0.5);
   -webkit-box-shadow: 3px 3px 6px 3px rgba(204, 204, 204, 0.5);
   /*Transition effects*/
@@ -110,14 +108,13 @@
 
 .image {
   float: left;
+  clear:both;
+  overflow: hidden;
   content:url(images/member3.jpg);
   width:223px;
   height:331px;
-  margin-top:50px;
-  margin-bottom: 10px;
+  margin-top:10px;
   margin-left: 5%;
-  border: 1px solid #FFD700;
-  /*margin-right: 50px;*/
   -moz-box-shadow: 5px 5px 10px 5px rgba(204, 204, 204, 0.5);
   -webkit-box-shadow: 3px 3px 6px 3px rgba(204, 204, 204, 0.5);
   /*Transition effects*/
@@ -129,10 +126,8 @@
 }
 
 .biostate {
-  padding: 40px 10px;
+  padding: 40px 30px;
   text-align: center;
-  font-size: 19px;
-  display: table-cell;
   vertical-align: middle;
 }
 .biostate {
@@ -142,7 +137,6 @@
 .misstate { 
   padding: 40px 30px;
   text-align: center;
-  display: table-cell;
   vertical-align: middle;
 }
 .misstate {
