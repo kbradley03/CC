@@ -1,12 +1,13 @@
 body    {  
-  background-color: white;
+  
+           background-image: url("images/cc_backgrounds_3.jpg");
+           width:100%;
         }
 #container{
           /*border: 3px solid black;*/
           width: 1200px;
           margin-left:auto;
           margin-right: auto;
-          background-color: white;
           border-top: 5px solid gold;
 }
 #box    { 

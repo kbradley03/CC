@@ -3,16 +3,7 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-.button {
-  font-family: 'Merriweather', serif;
-  width: 300px;
-  height: 75px;
-  display: block;
-  margin:auto;
-  border-radius:2px;
-  background-color:#ccac00;
-  border-bottom:1px solid #7b8b2f;
-  font-size: 20px;
+
 }
 body{
   background-image: url("images/cc_backgrounds_3.jpg");
@@ -41,6 +32,8 @@ p{
 .outerContainer {
   background-image: url("images/cc_backgrounds_3.jpg");
   background-color: #bbb;
+  background-attachment: fixed;
+  margin-top:none;
 }
 
 .innerContainer {
@@ -146,7 +139,70 @@ p{
   font-size: 2.8125em;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  margin-top:50px;
+  padding-top:50px;
+  margin-top: 0;
   margin-bottom: 50px;
   color: #fff;
 }
+
+.buttons{
+  height: auto;
+  font-family: 'Merriweather', serif;
+  margin-top:30px;
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  padding-top: 10px;
+  
+}
+ ul{
+  list-style:none;
+  display: inline-block;
+  text-align: center;
+ }
+  a{
+    display: inline;
+    color: #000;
+  }
+  li  {
+  height: 60px;
+  width: 150px;
+  text-align: center;
+  border: 1px solid #ffeb7f;
+  border-color: #ffeb7f;
+  border-radius: 5px;
+  background-color: #ccac00; 
+  margin-left: 10px;
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Merriweather', serif;
+  
+}
+
+
+.buttons.tabs {
+  width: 100%;
+  list-style: none;  
+  margin-left: auto;
+  overflow: hidden;
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 75px;
+  
+  
+  
+}
+
+
+
+<!--.buttons li{float:left;position:relative;}/* ie needs position:relative here*/-->
+
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+

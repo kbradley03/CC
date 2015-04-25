@@ -4,6 +4,31 @@
     <title>Creative Membership</title>
     <link rel="stylesheet" type="text/css" href="membership.css">
     <link href='http://fonts.googleapis.com/css?family=Merriweather:300,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+      
+        function submit(order) {
+          switch (order) {
+              case 0:
+                  $(".hide").removeClass("show");
+                  $(".submit1").addClass("show");
+                  break;
+              case 1:
+                  $(".hide").removeClass("show");
+                  $(".submit2").addClass("show");
+                  break;
+              case 2:
+                  $(".hide").removeClass("show");
+                  $(".submit3").addClass("show");
+                  break;
+              case 3:
+                  $(".hide").removeClass("show");
+                  $(".submit4").addClass("show");
+                  break;
+    }
+}
+
+      </script>
+    
   </head>
   <body>
     <div class="outerContainer">
@@ -26,28 +51,29 @@
           </p>
         </div>
         
-        <div class="form">
-  
-          <button class="button" type="button">
-              <strong>Apply Now!</strong>
-          </button>
+        <div class="buttons">
+            <ul class="tabs">
+                <a href="javascript:submit(0)"><li>Join</li></a>
+                <a href="javascript:submit(1)"><li>Pitch</li></a>
+                <a href="javascript:submit(2)"><li>Job Listings</li></a>
+                <a href="javascript:submit(3)"><li>Advertise</li></a>
+            </ul>
+          <div class="hide submit(1)" style="display:none">
+                Join
+          </div>
+          <div class="hide submit(2)" style="display:none">
+                 Submit Script...
+          </div>
+          <div class="hide submit(3)" style="display:none">
+                List Jobs... 
+          </div>
+          <div class="hide submit(4)" style="display:none">
+                Advertise...
+          </div>   
+        </div>
+      
 
-        </div>
-        <div class="rules-header">
-          <p><strong>I hereby apply for membership to The Creative Cypher. If accepted, I agree to be bound by the rules of The Creative Cypher.</strong></p>
-        </div>
-        <div class="rules">
-         
-          <ul class="rule-list">
-            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-          </ul>
-        </div>
-        
-      
-      
-    </div>
+
+
   </body>
 </html>

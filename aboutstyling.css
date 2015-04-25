@@ -1,37 +1,27 @@
-.about{
-        height: 100%;
-        margin: 0;
-        background-color: #2c2c2c;
-
+body{
+  background-image: url("images/cc_backgrounds_3.jpg");
+  width:100%;
 }
-.container {
-          
-          width: 1200px;
-          top: 100%;
-          margin-left:auto;
-          margin-right: auto;
-          /*border: 1px solid #FFD700;*/
-    background-color: #222;
-
-          
-          
+div{
+  display: block;
 }
-.hero  {
-        background: url("images/ccnewlogofs2.jpg");
-        height: 460px;
-        /* -moz-box-shadow: 5px 5px 10px 5px rgba(204, 204, 204, 0.5);
-        -webkit-box-shadow: 3px 3px 6px 3px rgba(204, 204, 204, 0.5);*/
-        /*Transition effects*/
-        /*transition: box-shadow ease 0.5s;*/
+h1{
+  text-align: center;
+  font-size: 60px;
 }
 
-.hero:hover{
-    /*-webkit-box-shadow: 6px 6px 10px 5px rgba(204, 204, 204, 0.5);*/
-        /*border: 3px solid red;*/
+p{
+  display: block;
+}
+
+.outerContainer {
+  background-image: url("images/cc_backgrounds_3.jpg");
+  background-color: #bbb;
+  background-attachment: fixed;
         }
-.inner {
+.innerContainer {
         /*border: 2px solid #FFD700;*/
-        width: 80%;
+        width: 70%;
         height: 100%;
         background-color: white;
         margin-left: auto;
@@ -40,6 +30,17 @@
         /*margin-bottom: 50px;*/
         /*-moz-box-shadow: 5px 5px 10px 5px rgba(204, 204, 204, 0.5);
         -webkit-box-shadow: 3px 1px 6px 3px rgba(204, 204, 204, 0.5);
+        /*Transition effects*/
+        /*transition: box-shadow ease 0.5s;*/
+}
+.hero  {
+        background: url("images/ccnewlogofs2.jpg") no-repeat;
+        height: 460px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        /* -moz-box-shadow: 5px 5px 10px 5px rgba(204, 204, 204, 0.5);
+        -webkit-box-shadow: 3px 3px 6px 3px rgba(204, 204, 204, 0.5);*/
         /*Transition effects*/
         /*transition: box-shadow ease 0.5s;*/
 }
@@ -153,4 +154,17 @@
 
 .visstate {
       display: inline-block;
+}
+
+.mem-h1 {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 2.8125em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  padding-top:50px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: #fff;
+  
 }
